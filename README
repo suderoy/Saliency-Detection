@@ -1,8 +1,11 @@
 PARAM (background Prior And RArity for saliency Modeling)
 =========================================================
 
-The code is the implementation of the research work that has been presented in the VISAPP (part of VISIGRAPP) 2014 under the title "Saliency Detection using Graph-based Rarity, Spatial Compactness and Background Prior", by Sudeshna Roy and Sukhendu Das.
+The code is the implementation of the research work that has been presented in the VISAPP (part of VISIGRAPP) 2014 under the title
+"Saliency Detection using Graph-based Rarity, Spatial Compactness and Background Prior", by Sudeshna Roy and Sukhendu Das.
 If you're using this code in a publication, please cite our paper.
+
+Poster: http://www.cse.iitm.ac.in/~sudeshna/visapp_poster.pdf
 
 Please note that the constant values used in this paper are as mentioned in the paper and results are shown for that. It may not be optimal, subject to experimentation.
 
@@ -15,7 +18,7 @@ Dependencies:
  * TBB (optional)  http://www.threadingbuildingblocks.org/
 
 Linux, Mac OS X and Windows (cygwin):
- ./build.sh
+ ```./build.sh
 
 Windows
  You better create a Visual Studio project plugin in the files
@@ -23,9 +26,9 @@ Windows
 How to run
 ----------
 To compute the saliency of a single image use:
- build/src/test_saliency <path/to/image> <path/to/saliency/map> <path/to/binary/cut>
+ ```build/src/test_saliency <path/to/image> <path/to/saliency/map> <path/to/binary/cut>
 
 To compute the superpixel segmentation of a single image use:
- build/src/test_superpixel path/to/image
+``` build/src/test_superpixel path/to/image
 
 Please note that the main contribution of this paper is written in src/saliency/saliency.cpp. The software structure, the spatial compactness code, the superpixel code (the preprocessing part) and the Upsampling (Post processing part) are taken from Saliency Filters - Code. (http://www.stanford.edu/~philkr/). If you use those parts only, please follow their paper and code for details and citation.
