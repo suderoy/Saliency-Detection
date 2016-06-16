@@ -2,11 +2,10 @@ PARAM (background Prior And RArity for saliency Modeling)
 =========================================================
 
 The code is the implementation of the research work that has been presented in the VISAPP (part of VISIGRAPP) 2014 under the title
-#### H4"Saliency Detection using Graph-based Rarity, Spatial Compactness and Background Prior", by Sudeshna Roy and Sukhendu Das.
+"Saliency Detection using Graph-based Rarity, Spatial Compactness and Background Prior", by Sudeshna Roy and Sukhendu Das.
 If you're using this code in a publication, please cite our paper.
 
-
-![alt text](http://www.cse.iitm.ac.in/~sudeshna/visapp_poster.pdf "VISAPP Poster")
+Poster: http://www.cse.iitm.ac.in/~sudeshna/visapp_poster.pdf
 
 Please note that the constant values used in this paper are as mentioned in the paper and results are shown for that. It may not be optimal, subject to experimentation.
 
